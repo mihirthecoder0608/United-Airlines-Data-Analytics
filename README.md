@@ -220,7 +220,7 @@ United Airlines performed slightly above the industry benchmark, although substa
 
 ### 2.2 Monthly Performance Analysis
 
-![Monthly On-Time Performance](visualizations/01_chart_monthly_otp.png)
+![Monthly On-Time Performance](visualizations/01_chart_monthly_otp.png.png)
 
 United Airlines experienced significant seasonal variation in on-time performance.
 
@@ -239,7 +239,7 @@ Airlines should investigate additional operational preparedness, staffing, aircr
 
 ### 2.3 Airport and Hub Performance Analysis
 
-![Hub Departure Delay Analysis](visualizations/02_chart_hubs.png)
+![Hub Departure Delay Analysis](visualizations/02_chart_hubs.png.png)
 
 | Airport | Average Departure Delay |
 |---|---:|
@@ -261,7 +261,7 @@ Operational improvement initiatives should investigate airport congestion, turna
 
 ### 2.4 Route Performance Analysis
 
-![Top 15 Routes by Total Delay Minutes](visualizations/04_chart_routes.png)
+![Top 15 Routes by Total Delay Minutes](visualizations/04_chart_routes.png.png)
 
 Flight routes were ranked according to cumulative delay minutes to identify corridors contributing the greatest operational delay burden.
 
@@ -288,7 +288,7 @@ Prioritize high-impact corridors when investigating operational bottlenecks and 
 
 ### 2.5 Hourly Performance and Delay Propagation
 
-![Hourly Performance and Delay Propagation](visualizations/03_chart_hourly_cascade.png)
+![Hourly Performance and Delay Propagation](visualizations/03_chart_hourly_cascade.png.png)
 
 On-time performance generally deteriorated throughout the operating day, while the contribution of late-arriving aircraft increased.
 
@@ -311,7 +311,7 @@ Investigate aircraft turnaround buffers, aircraft rotation schedules and proacti
 
 ### 2.6 Root Cause Analysis
 
-![United Airlines vs Industry Delay Causes](visualizations/05_chart_causes.png)
+![United Airlines vs Industry Delay Causes](visualizations/05_chart_causes.png.png)
 
 | Delay Cause | United Airlines | Industry |
 |---|---:|---:|
@@ -338,7 +338,7 @@ Operational improvements should consider both internal airline processes and ext
 
 ## 3. Predictive Machine Learning
 
-![Predictive Model Risk Band Analysis](visualizations/06_chart_model_bands.png)
+![Predictive Model Risk Band Analysis](visualizations/06_chart_model_bands.png.png)
 
 ### Objective
 
@@ -464,7 +464,7 @@ Planning-model evaluation metrics and day-of risk-band results represent separat
 
 ## 4. Customer Loyalty and Retention Analytics
 
-![Customer Loyalty and Promotional Uplift - Simulated Data](visualizations/07_chart_loyalty_promo.png)
+![Customer Loyalty and Promotional Uplift - Simulated Data](visualizations/07_chart_loyalty_promo.png.png)
 
 ### Business Problem
 
@@ -605,7 +605,7 @@ The dashboard enables stakeholders to identify operational bottlenecks, compare 
 
 ### Dashboard Preview
 
-![United Airlines Executive Analytics Dashboard](visualizations/08_tableau_dashboard.png)
+![United Airlines Executive Analytics Dashboard](visualizations/08_tableau_dashboard.png.png)
 
 ### Executive KPI Cards
 
