@@ -723,7 +723,7 @@ A PowerPoint presentation was developed to communicate analytical findings to a 
 
 The presentation emphasizes business storytelling by translating technical analysis into clear findings, implications and recommended actions.
 
-📂 [View Executive Presentation](United_Operations_Deck.pptx)
+[United Airlines – Operations and Customer Analytics Report (PPTX)](reports/United_Operations_and_Customer_Analytics_Report.pptx)
 
 ---
 
