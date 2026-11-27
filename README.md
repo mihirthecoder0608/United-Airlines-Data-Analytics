@@ -2,12 +2,6 @@
 
 ### End-to-End Data Analytics | Business Intelligence | Predictive Modelling
 
-![SQL](https://img.shields.io/badge/SQL-Server-CC2927?logo=microsoftsqlserver)
-![Python](https://img.shields.io/badge/Python-Analytics-3776AB?logo=python)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?logo=tableau)
-![Excel](https://img.shields.io/badge/Excel-Business%20Reporting-217346?logo=microsoftexcel)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-F7931E?logo=scikitlearn)
-![Statistics](https://img.shields.io/badge/Statistics-Hypothesis%20Testing-purple)
 
 ---
 
@@ -226,7 +220,7 @@ United Airlines performed slightly above the industry benchmark, although substa
 
 ### 2.2 Monthly Performance Analysis
 
-![Monthly On-Time Performance](chart_monthly_otp.png)
+![Monthly On-Time Performance](visualizations/01_chart_monthly_otp.png)
 
 United Airlines experienced significant seasonal variation in on-time performance.
 
@@ -245,7 +239,7 @@ Airlines should investigate additional operational preparedness, staffing, aircr
 
 ### 2.3 Airport and Hub Performance Analysis
 
-![Hub Performance](chart_hubs.png)
+![Hub Departure Delay Analysis](visualizations/02_chart_hubs.png)
 
 | Airport | Average Departure Delay |
 |---|---:|
@@ -266,6 +260,8 @@ Operational improvement initiatives should investigate airport congestion, turna
 ---
 
 ### 2.4 Route Performance Analysis
+
+![Top 15 Routes by Total Delay Minutes](visualizations/04_chart_routes.png)
 
 Flight routes were ranked according to cumulative delay minutes to identify corridors contributing the greatest operational delay burden.
 
@@ -292,7 +288,7 @@ Prioritize high-impact corridors when investigating operational bottlenecks and 
 
 ### 2.5 Hourly Performance and Delay Propagation
 
-![Hourly Delay Propagation](chart_hourly_cascade.png)
+![Hourly Performance and Delay Propagation](visualizations/03_chart_hourly_cascade.png)
 
 On-time performance generally deteriorated throughout the operating day, while the contribution of late-arriving aircraft increased.
 
@@ -315,7 +311,7 @@ Investigate aircraft turnaround buffers, aircraft rotation schedules and proacti
 
 ### 2.6 Root Cause Analysis
 
-![Flight Delay Causes](chart_causes.png)
+![United Airlines vs Industry Delay Causes](visualizations/05_chart_causes.png)
 
 | Delay Cause | United Airlines | Industry |
 |---|---:|---:|
@@ -341,6 +337,8 @@ Operational improvements should consider both internal airline processes and ext
 ---
 
 ## 3. Predictive Machine Learning
+
+![Predictive Model Risk Band Analysis](visualizations/06_chart_model_bands.png)
 
 ### Objective
 
@@ -465,6 +463,8 @@ Planning-model evaluation metrics and day-of risk-band results represent separat
 ---
 
 ## 4. Customer Loyalty and Retention Analytics
+
+![Customer Loyalty and Promotional Uplift - Simulated Data](visualizations/07_chart_loyalty_promo.png)
 
 ### Business Problem
 
@@ -605,7 +605,7 @@ The dashboard enables stakeholders to identify operational bottlenecks, compare 
 
 ### Dashboard Preview
 
-![United Airlines Tableau Executive Dashboard](tableau_dashboard.png)
+![United Airlines Executive Analytics Dashboard](visualizations/08_tableau_dashboard.png)
 
 ### Executive KPI Cards
 
@@ -703,8 +703,6 @@ Microsoft Excel was used to consolidate analytical findings into a structured bu
 - Management-oriented reporting
 
 Excel complements the Tableau dashboard by providing a familiar environment for reviewing analytical results and investigating business scenarios.
-
-📂 [View Excel Analysis Workbook](United_Airline_Analysis.xlsx)
 
 ---
 
