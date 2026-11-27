@@ -1,0 +1,33 @@
+A. WHAT DOES A TYPICAL FLIGHT LOOK LIKE? (arrival delay in minutes; negative = early)
+   Average (mean): 7.3   Median (middle flight): -6.0
+   10% of flights arrived by:  -24.0 min
+   25% of flights arrived by:  -16.0 min
+   75% of flights arrived by:   10.0 min
+   90% of flights arrived by:   46.0 min
+   95% of flights arrived by:   92.0 min
+   99% of flights arrived by:  230.0 min
+   Worst single flight: 1688 min (28.1 hours)
+
+B. DELAY BUCKETS: share of flights vs share of all delay minutes
+                     flights  share_of_flights_pct  delay_minutes  share_of_delay_minutes_pct
+bucket                                                                                       
+Early / on schedule   497594                  63.3            0.0                         0.0
+1-14 min late         119968                  15.3       780461.0                         6.0
+15-59 min late        105994                  13.5      3262590.0                        25.0
+60-179 min late        49219                   6.3      4998880.0                        38.4
+180+ min late          13602                   1.7      3984741.0                        30.6
+
+C. HOW CONCENTRATED IS THE PAIN?
+   Flights 60+ min late: 8.0% of flights, but 69.0% of all delay minutes
+   The worst 10% of flights (arriving 46+ min late) produce 75.8% of all delay minutes
+   Flights that are 'late' by the official rule (15+ min): 21.5%
+
+D. BY HUB (flights departing each hub): median vs the bad tail
+        flights  median   p90  pct_60plus
+ORIGIN                                   
+EWR       65578    -6.0  63.0        10.6
+ORD       94624    -4.0  54.0         9.0
+DEN      104951    -4.0  50.0         8.3
+IAH       71106    -6.0  48.0         8.2
+LAX       27807   -10.0  30.0         5.5
+SFO       57384    -7.0  30.0         5.2

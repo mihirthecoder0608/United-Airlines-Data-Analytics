@@ -1,0 +1,6 @@
+bucket,flights,share_of_flights_pct,delay_minutes,share_of_delay_minutes_pct
+Early / on schedule,497594,63.28,0.0,0.0
+1-14 min late,119968,15.26,780461.0,5.99
+15-59 min late,105994,13.48,3262590.0,25.05
+60-179 min late,49219,6.26,4998880.0,38.37
+180+ min late,13602,1.73,3984741.0,30.59

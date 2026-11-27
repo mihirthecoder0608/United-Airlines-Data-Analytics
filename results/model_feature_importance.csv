@@ -1,0 +1,9 @@
+feature,auc_drop
+dep_hour,0.0708
+DEST,0.0312
+network_delay_so_far,0.0311
+ORIGIN,0.0282
+origin_delay_so_far,0.0247
+DISTANCE,0.0039
+DAY_OF_WEEK,0.0028
+MONTH,0

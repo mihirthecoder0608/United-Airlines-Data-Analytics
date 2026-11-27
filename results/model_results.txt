@@ -1,0 +1,31 @@
+PHASE 2: DELAY PREDICTION MODEL (United flights)
+Flights used: 786,377  |  Train (Jan-Sep): 584,187  |  Test (Oct-Dec, never seen): 202,190
+Late flights (15+ min): train 21.6%  test 21.0%
+Baseline: guessing 'nobody is late' is right 79.0% of the time but catches 0 late flights
+
+RESULTS ON UNSEEN OCT-DEC FLIGHTS (random guessing gives AUC 0.500; a perfect model gives 1.000)
+Logistic regression (planning)     AUC 0.632 | flag riskiest 20% of flights: 33% of flagged are really late, catches 31% of all late flights
+Gradient boosting A (planning)     AUC 0.647 | flag riskiest 20% of flights: 34% of flagged are really late, catches 32% of all late flights
+Gradient boosting B (day-of)       AUC 0.682 | flag riskiest 20% of flights: 40% of flagged are really late, catches 38% of all late flights
+
+DAY-OF MODEL: flights split into 5 equal risk bands (predicted by the model)
+           flights  actually_late_pct
+risk_band                            
+1 lowest     40438                9.4
+2            40438               13.8
+3            40438               18.3
+4            40438               23.6
+5 highest    40438               39.8
+
+WHAT THE DAY-OF MODEL RELIES ON (drop in AUC when that column is scrambled; bigger = more important)
+  dep_hour              0.0708
+  DEST                  0.0312
+  network_delay_so_far  0.0311
+  ORIGIN                0.0282
+  origin_delay_so_far   0.0247
+  DISTANCE              0.0039
+  DAY_OF_WEEK           0.0028
+  MONTH                 0.0000
+
+Limits: no weather, aircraft-rotation or crew data. 'Earlier flights' assumes results are known 3 hours ahead.
+Late-flight rate by band should rise steadily from band 1 to 5: that is the model working.
